@@ -1,0 +1,32 @@
+.eggImage {
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 30%;
+}
+
+
+.eggImage:hover
+  {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 
+    0 0 10px #ccc,
+    rgba(100, 46, 100, 0.4) 5px 5px,
+    rgba(0, 0, 0, 0.10) 0px 54px 55px;
+    cursor: pointer;
+  }
+
+img {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
+
+ 
+ 
